@@ -883,7 +883,7 @@ img.mfp-img {
   width: 100%;
   cursor: auto; }
 
-.mfp-title {
+.mfp-m {
   text-align: left;
   line-height: 18px;
   color: #F3F3F3;
@@ -1067,7 +1067,7 @@ header {
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
   padding-left: 15px;
-  background-color: #630;
+  background-color: #0065a3;
   height: 50px;
   -webkit-transition: all linear 0.5s;
   -o-transition: all linear 0.5s;
@@ -1189,7 +1189,7 @@ footer {
   text-transform: uppercase;
 }
 .main-nav-list__link:hover {
-  color: #ffae23;
+  color: #0065a3;
 }
 .main-nav-list__link.main-nav-list__link--active {
   padding: 0 11px;
@@ -1267,7 +1267,7 @@ footer {
   }
 }
 .main-title__name {
-  color: #ffae23;
+  color: #0065a3;
 }
 .g-section-title {
   margin-bottom: 40px;
@@ -1333,8 +1333,8 @@ footer {
   height: 40px;
   line-height: 36px;
   color: btnColor;
-  border-bottom: 2px solid #ffae23;
-  border-top: 2px solid #ffae23;
+  border-bottom: 2px solid #0065a3;
+  border-top: 2px solid #0065a3;
 }
 .g-btn-border--left {
   position: absolute;
@@ -1353,7 +1353,7 @@ footer {
   height: 0;
   border-style: solid;
   border-width: 21px 12px 21px 0;
-  border-color: transparent #ffae23 transparent transparent;
+  border-color: transparent #0065a3 transparent transparent;
 }
 .g-btn-border--left:before {
   position: absolute;
@@ -1384,7 +1384,7 @@ footer {
   height: 0;
   border-style: solid;
   border-width: 21px 0 21px 12px;
-  border-color: transparent transparent transparent #ffae23;
+  border-color: transparent transparent transparent #0065a3;
 }
 .g-btn-border--right:before {
   position: absolute;
@@ -1436,7 +1436,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 30px;
-  background-color: #ffae23;
+  background-color: #0065a3;
   cursor: pointer;
   -webkit-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
@@ -1449,7 +1449,7 @@ footer {
   }
 }
 .choose-house:hover {
-  background-color: #ffd276;
+  background-color: #a3dcff;
 }
 .choose-house:before {
   position: absolute;
@@ -1793,7 +1793,7 @@ footer {
   transition: all linear 0.3s;
 }
 .slider-controls:hover .icon {
-  fill: #ffae23;
+  fill: #0065a3;
 }
 .slider-controls--prev {
   left: 15px;
@@ -2292,7 +2292,7 @@ label.error {
   transition: all linear 0.3s;
 }
 .advantage-link__text:hover {
-  color: #ffae23;
+  color: #0065a3;
 }
 .advantage-link__text:before,
 .advantage-link__text:after {
@@ -3489,13 +3489,13 @@ label.error {
   opacity: 1;
 }
 .house-list__item--active .house-list__title {
-  color: #ffae23;
+  color: #0065a3;
 }
 .house-list__item--active .house-list__icon {
-  border: 1px solid #ffae23;
+  border: 1px solid #0065a3;
 }
 .house-list__item--active .house-list__icon .icon {
-  fill: #ffae23;
+  fill: #0065a3;
 }
 .house-list__item--active .house-list__icon .icon-arrow-up-thin {
   display: block;
@@ -3522,7 +3522,7 @@ label.error {
   width: 24px;
   height: 24px;
   margin-left: 30px;
-  background-color: #ffae23;
+  background-color: #0065a3;
   -webkit-transition: all linear 0.5s;
   -o-transition: all linear 0.5s;
   transition: all linear 0.5s;
@@ -3537,7 +3537,7 @@ label.error {
   height: 0;
   border-style: solid;
   border-width: 12px 7px 12px 0;
-  border-color: transparent #ffae23 transparent transparent;
+  border-color: transparent #0065a3 transparent transparent;
 }
 .house-list__choose .icon {
   width: 3px;
