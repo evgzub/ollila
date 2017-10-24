@@ -1541,7 +1541,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   height: 50px;
-  line-height: 50px;
+  line-height: 25px;
   background-color: #fff;
 }
 .border-line:after {
@@ -2134,7 +2134,7 @@ label.error {
   }
 }
 .promo-line__text {
-  color: #5a3600;
+  color: #0065a3;
   font-size: 1.125rem;
 }
 .promo-line__btn {
