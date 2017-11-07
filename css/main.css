@@ -1952,8 +1952,26 @@ label.error {
 @media screen and (max-width: 850px) {
   .s-banner {
     padding-bottom: 30px;
-    background: url("../img/general/banner-bg.jpg") center no-repeat;
+    background: #91c6f6 url("../img/todo.jpg") center no-repeat;
     background-size: cover;
+  }
+  .border-line {
+    display: block;
+    height: auto;
+    line-height: 1.5;
+  }
+  .border-line:before, .border-line:after {
+    display: none;
+  }
+  .about__tabs-list {
+    display: block;
+  }
+  .about__border-line .border-line-wrap-inner {
+    min-width: 0 !important;
+    padding: 0 20px;
+  }
+  .tabs-list__text {
+    text-align: center;
   }
 }
 .s-banner .container {
@@ -2062,6 +2080,9 @@ label.error {
 @media screen and (max-width: 850px) {
   .banner-play {
     display: block;
+  }
+  .advantage-wrap {
+    margin: 0 auto 20px ;
   }
 }
 .banner-play:after {
