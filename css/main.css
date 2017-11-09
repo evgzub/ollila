@@ -1260,6 +1260,38 @@ footer {
   .main-title {
     font-size: 2.5rem;
   }
+  .s-choose .g-section-title {
+    margin: 0 !important;
+  }
+  .s-choose .choose-actions h2 {
+    color: #000;
+  }
+  .s-choose .choose-actions {
+    position: static !important;
+    margin-top: 70px;
+  }
+  .s-choose .tab-choose-list {
+    display: block !important;
+  }
+  .s-choose .tabs-list,
+  .s-choose .tab-choose-map {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 851px) {
+  .s-choose .tabs-list {
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 50px);
+    -webkit-transform: translateY(-87%);
+    -ms-transform: translateY(-87%);
+    -o-transform: translateY(-87%);
+    transform: translateY(-87%);
+  }
+  .s-choose .tabs-list__text {
+    white-space: nowrap;
+    display: block;
+  }
 }
 @media screen and (max-width: 767px) {
   .main-title {
@@ -2941,8 +2973,7 @@ label.error {
 }
 .map__img {
   width: 100%;
-  height: 100%;
-  min-width: 1400px;
+  min-width: 1440px;
 }
 .map-compass {
   position: absolute;
@@ -3637,7 +3668,7 @@ label.error {
 .choose-map {
  background-color: #452300;
     }
-.choose-map svg{width:100%;min-width:1400px;height:100%;position: absolute;top:0;left:50%;transform:translateX(-50%)}
+.choose-map svg{width:100%;min-width:1440px;position: absolute;top:0;left:50%;transform:translateX(-50%)}
 .fills{position: absolute;fill:#DEAB7B;stroke:#FBCA0D;stroke-width:3px;stroke-opacity:0;fill-opacity:0.3;cursor:pointer}
 .fills:hover{fill-opacity: 0.6;stroke-opacity:1}
 .mainsection{position: absolute;fill:#F6F6F6;vector-effect:non-scaling-stroke;fill-rule:evenodd;stroke:#333333;stroke-width:2px}
@@ -3646,6 +3677,18 @@ label.error {
 .sections:hover{fill:#FFBC32}
 .sections.sold:hover{fill:#C2C2C2}
 
+.home-area {
+  opacity: 0;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  fill:#DEAB7B;
+}
+.home-area:hover {
+  opacity: 1;
+  fill:#DEAB7B;stroke:#FBCA0D;stroke-width:3px;fill-opacity:0.3;
+}
 .house-list__line{
   cursor: pointer;
 }
