@@ -322,8 +322,10 @@ $(document).ready(function () {
         var par = $(this).closest('.map-p-screen');
         var id = par.attr('id');
         var korp = id.slice(-1);
-        par.removeClass('show').siblings('.map-p-screen--house-book').attr('id',id+'b').find('.house-book__descr').html('Таунхаус '+korp);
-
+        var num = $ (this).attr('data-place-number');
+        // par.removeClass('show').siblings('.map-p-screen--house-book').attr('id',id+'b').find('.house-book__descr').html('Участок №'+korp);
+        par.removeClass('show').siblings('.map-p-screen--house-book').attr('id',id+'b').find('.house-book__descr').html('Участок №'+num);
+        par.siblings('.map-p-screen--house-book').find('input[name="number"]').val(num);
     })
 
 });
