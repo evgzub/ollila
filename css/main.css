@@ -3348,7 +3348,9 @@ label.error {
   }
 }
 .house-gallery span {
-  margin-left: 10px;
+  display: inline-block;
+  padding: .5em;
+  margin-top: 10px;
 }
 .house-screen__choose img {
   display: block;
