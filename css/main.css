@@ -3548,8 +3548,8 @@ label.error {
   -o-transition: all linear 0.5s;
   transition: all linear 0.5s;
 }
-.house-list__item.house-list__item--active {
-  border-color: #ccc;
+.house-list__item.house-list__item--active .housing-screen__top {
+  margin-bottom: 10px;
 }
 .house-list__item--active .house-list__choose {
   opacity: 1;
