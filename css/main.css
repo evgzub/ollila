@@ -1574,7 +1574,7 @@ footer {
           align-items: center;
   height: 50px;
   line-height: 25px;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .border-line:after {
   position: absolute;
@@ -1648,8 +1648,8 @@ footer {
 }
 .tabs-list__item.tabs-list__item--active,
 .tabs-list__item:hover {
-  color: #fff;
-  border-color: #fff;
+  color: #0065a3;
+  border-color: #0065a3;
 }
 .tabs-list__item.tabs-list__item--active .tab-border--right,
 .tabs-list__item:hover .tab-border--right,
@@ -2176,6 +2176,7 @@ label.error {
   .s-advantages .container {
     top: 0;
     margin-bottom: 0;
+    background-color: #0065a3;
   }
 }
 .s-advantages .g-section-title {
