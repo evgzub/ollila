@@ -1648,7 +1648,7 @@ footer {
 }
 .tabs-list__item.tabs-list__item--active,
 .tabs-list__item:hover {
-  color: #ffffff;
+  color: #fff;
   border-color: #fff;
 }
 .tabs-list__item.tabs-list__item--active .tab-border--right,
@@ -2164,7 +2164,7 @@ label.error {
 }
 @media screen and (max-width: 850px) {
   .s-advantages.adv-half-opacity {
-    background-color: #630;
+    background-color: #0065a3;
   }
 }
 .s-advantages .container {
