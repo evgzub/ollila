@@ -2148,7 +2148,7 @@ label.error {
   padding-top: 50px;
 }
 .s-advantages {
-  background-color: #0065a3;
+  background-color: #AFEEEE;
   -webkit-transition: all linear 0.6s;
   -o-transition: all linear 0.6s;
   transition: all linear 0.6s;
@@ -2642,7 +2642,7 @@ label.error {
 }
 .s-gallery {
   padding: 150px 0 100px;
-  background-color: #0065a3;
+  background-color: #AFEEEE;
 }
 @media screen and (max-width: 767px) {
   .s-gallery {
