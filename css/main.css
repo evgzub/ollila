@@ -2164,7 +2164,7 @@ label.error {
 }
 @media screen and (max-width: 850px) {
   .s-advantages.adv-half-opacity {
-    background-color: #0065a3;
+    background-color: #AFEEEE;
   }
 }
 .s-advantages .container {
@@ -2176,7 +2176,7 @@ label.error {
   .s-advantages .container {
     top: 0;
     margin-bottom: 0;
-    background-color: #0065a3;
+    background-color: #AFEEEE;
   }
 }
 .s-advantages .g-section-title {
