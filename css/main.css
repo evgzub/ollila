@@ -1263,9 +1263,9 @@ footer {
   .s-choose .g-section-title {
     margin: 0 !important;
   }
-  .s-choose .choose-actions h2 {
+  /*.s-choose .choose-actions h2 {
     color: #000;
-  }
+  }*/
   .s-choose .choose-actions {
     position: static !important;
     margin-top: 70px;
@@ -1287,6 +1287,15 @@ footer {
     -ms-transform: translateY(-87%);
     -o-transform: translateY(-87%);
     transform: translateY(-87%);
+  }
+  .choose-actions--black .tabs-list {
+    position: static;
+    top: auto;
+    left: auto;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
   }
   .s-choose .tabs-list__text {
     white-space: nowrap;
