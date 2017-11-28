@@ -1583,7 +1583,7 @@ footer {
           align-items: center;
   height: 50px;
   line-height: 25px;
-  background-color: #F5F5F5;
+  background-color: #EEE8AA;
 }
 .border-line:after {
   position: absolute;
@@ -2246,7 +2246,7 @@ label.error {
 }
 .advantage {
   position: relative;
-  background-color: #fff;
+  background-color: #EEE8AA;
   text-align: center;
   padding: 0 20px 30px;
   width: 240px;
@@ -2262,7 +2262,7 @@ label.error {
   height: 0;
   border-style: solid;
   border-width: 40px 120px 0 120px;
-  border-color: #fff transparent transparent transparent;
+  border-color: #EEE8AA transparent transparent transparent;
 }
 .advantage-icon__bottom-arrow {
   position: absolute;
