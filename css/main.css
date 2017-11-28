@@ -1406,7 +1406,7 @@ footer {
   height: 0;
   border-style: solid;
   border-width: 18px 10px 18px 0;
-  border-color: transparent #fff transparent transparent;
+  border-color: transparent #EEE8AA transparent transparent;
 }
 .g-btn-border--right {
   position: absolute;
@@ -1437,7 +1437,7 @@ footer {
   height: 0;
   border-style: solid;
   border-width: 18px 0 18px 10px;
-  border-color: transparent transparent transparent #fff;
+  border-color: transparent transparent transparent #EEE8AA;
 }
 .g-btn-border__link {
   display: block;
@@ -2125,7 +2125,7 @@ label.error {
   height: 70px;
   margin: 20px auto;
   border-radius: 50%;
-  border: 1px solid #fff;
+  border: 1px solid #0065a3;
 }
 @media screen and (max-width: 850px) {
   .banner-play {
@@ -2603,7 +2603,7 @@ label.error {
   height: 150px;
   max-width: 500px;
   padding-top: 30px;
-  background-color: #fff;
+  background-color: #EEE8AA;
   text-align: center;
 }
 @media screen and (max-width: 767px) {
@@ -2621,7 +2621,7 @@ label.error {
   height: 0;
   border-style: solid;
   border-width: 75px 50px 75px 0;
-  border-color: transparent #fff transparent transparent;
+  border-color: transparent #EEE8AA transparent transparent;
 }
 .location-content:after {
   position: absolute;
@@ -2633,7 +2633,7 @@ label.error {
   height: 0;
   border-style: solid;
   border-width: 75px 0 75px 50px;
-  border-color: transparent transparent transparent #fff;
+  border-color: transparent transparent transparent #EEE8AA;
 }
 .location__title {
   display: block;
@@ -2693,7 +2693,7 @@ label.error {
 }
 .s-contacts {
   padding-top: 60px;
-  background-color: #fff;
+  background-color: #EEE8AA;
 }
 @media screen and (max-width: 1230px) {
   .s-contacts .container--middle {
