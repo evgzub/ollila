@@ -3701,6 +3701,10 @@ label.error {
   opacity: 1;
   fill:#DEAB7B;stroke:#FBCA0D;stroke-width:3px;fill-opacity:0.3;
 }
+.home-area--disable:hover {
+  fill: red;
+  stroke: red;
+}
 .house-list__line{
   cursor: pointer;
 }

@@ -110,7 +110,7 @@ Skip to content
                       <polygon class="home-area" points="158,200 159,226 206,226 206,221 184,203 " onclick="$('.map-popup').removeClass('map-popup--show');$('#housing63').addClass('map-popup--show')"/>
                       <polygon class="home-area" points="265,225 263,239 276,242 338,240 339,229 290,224 " onclick="$('.map-popup').removeClass('map-popup--show');$('#housing62').addClass('map-popup--show')"/>
                       <line class="fil1 str0" x1="321" y1="292" x2="321" y2= "304" />
-                      <polygon class="home-area" points="321,304 321,292 316,289 316,282 280,285 281,307 321,304 " onclick="$('.map-popup').removeClass('map-popup--show');$('#housing103').addClass('map-popup--show')"/>
+                      <polygon class="home-area  home-area--disable" points="321,304 321,292 316,289 316,282 280,285 281,307 321,304 " onclick="$('.map-popup').removeClass('map-popup--show');$('#housing103').addClass('map-popup--show')"/>
                       <polygon class="home-area" points="321,292 321,304 363,301 371,283 332,286 331,289 328,291 " onclick="$('.map-popup').removeClass('map-popup--show');$('#housing104').addClass('map-popup--show')"/>
                       <polygon class="home-area" points="521,251 511,272 550,284 559,257 "/>
                       <polygon class="home-area" points="559,257 550,284 586,294 591,277 595,263 "/>
@@ -6225,9 +6225,9 @@ Skip to content
                                   <a href="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg"></a>
                                 </div>
                               </div>
-                              <div class="map-popup-nav-link g-btn" data-nav="house-book" data-place-number="75"> <!-- ввести номер -->
+                              <!-- изменился интерфейс кнопки, см участок 29 <div class="map-popup-nav-link g-btn" data-nav="house-book" data-place-number="75"> ввести номер
                                 Бронировать
-                              </div>
+                              </div> -->
                             </div>
                           </li>
                           <li class="house-list__item">
@@ -6289,6 +6289,14 @@ Skip to content
                                   <div class="housing-short-info__col">
                                     <span class="housing-short-info__val">25,7</span><span class="housing-short-info__key">Площадь участка</span>
                                   </div>
+                                </div>
+                              </div>
+                              <div class="wrap-booking-btn">
+                                <div class="list-popup-show-form g-btn" data-nav="house-book" data-place-number="29"> <!-- ввести номер -->
+                                  Бронировать
+                                </div>
+                                <div class="list-popup-hide-form g-btn" style="display:none">
+                                  Отменить
                                 </div>
                               </div>
                             </div>

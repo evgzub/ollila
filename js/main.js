@@ -327,6 +327,20 @@ $(document).ready(function () {
         par.removeClass('show').siblings('.map-p-screen--house-book').attr('id',id+'b').find('.house-book__descr').html('Участок №'+num);
         par.siblings('.map-p-screen--house-book').find('input[name="number"]').val(num);
     })
+    $('.list-popup-show-form.g-btn').on('click',function(e){
+        $(this).closest('.house-list__item').find('form').slideDown();
+        $(this).closest('.house-list__item').find('.list-popup-hide-form').show();
+    });
+    $('.list-popup-hide-form.g-btn').on('click',function(e){
+        $(this).closest('.house-list__item').find('form').slideUp();
+        $(this).hide();
+    });
+    $('.house-list__title').on('click',function(e){
+        var num = $(this).closest('.house-list__item').find('.list-popup-show-form.g-btn').attr('data-place-number');
+        var id = '#housing' + num;
+        $(id).find('form').hide().appendTo($(this).closest('.house-list__item').find('.house-list__content'));
+        $(this).closest('.house-list__item').find('input[name="number"]').val(num);
+    })
 
 });
 
