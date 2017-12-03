@@ -955,13 +955,13 @@ img.mfp-img {
 
 html {
   height: 100%;
-  line-height: 2.5;
+  line-height: 1.7;
   font-size: 16px;
 }
 body {
   height: 100%;
   font-family: 'Fira Sans Condensed', Arial, sans-serif;
-  color: #333;
+  color: #0065a3;
 }
 h1,
 h2,
@@ -2345,7 +2345,7 @@ label.error {
   height: 62px;
 }
 .advantage__text {
-  color: #333;
+  color: #0065a3;
   font-size: 0.875rem;
 }
 .advantage-link {
@@ -2455,7 +2455,7 @@ label.error {
 .advantage-info__content {
   position: relative;
   padding: 70px;
-  background-color: #fff;
+  background-color: #EEE8AA;
 }
 @media screen and (max-width: 850px) {
   .advantage-info__content {
