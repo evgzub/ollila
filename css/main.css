@@ -3725,10 +3725,11 @@ label.error {
 @media (max-width: 1440px) {
   .scrolable-map {
     width: 1440px;
+    position: relative;
   }
 
 .choose-map--scroll {
-  overflow-x: auto;
+  overflow-x: scroll;
 
   }
 }
