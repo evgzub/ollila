@@ -1266,7 +1266,7 @@ footer {
   /*.s-choose .choose-actions h2 {
     color: #000;
   }*/
-  .s-choose .choose-actions {
+  /*.s-choose .choose-actions {
     position: static !important;
     margin-top: 70px;
   }
@@ -1276,7 +1276,7 @@ footer {
   .s-choose .tabs-list,
   .s-choose .tab-choose-map {
     display: none !important;
-  }
+  }*/
 }
 @media screen and (min-width: 851px) {
   .s-choose .tabs-list {
@@ -2963,7 +2963,7 @@ label.error {
 .choose-actions {
   position: absolute;
   left: 60px;
-  top: 105px;
+  top: 55px;
   z-index: 1;
 }
 @media screen and (max-width: 1500px) {
@@ -3719,4 +3719,15 @@ label.error {
 
 .logo a {
   color: #fff;
+}
+
+@media (max-width: 1440px) {
+  .scrolable-map {
+    width: 1440px;
+  }
+
+.choose-map--scroll {
+  overflow-x: auto;
+
+  }
 }
