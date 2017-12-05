@@ -2179,7 +2179,8 @@ label.error {
 .s-advantages .container {
   position: relative;
   top: -25px;
-  margin-bottom: -85px;
+  /*margin-bottom: -85px;*/
+  padding-bottom: 40px;
 }
 @media screen and (max-width: 850px) {
   .s-advantages .container {
@@ -3730,4 +3731,20 @@ label.error {
   overflow-x: auto;
 
   }
+}
+
+.wrap-booking-btn {
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.list-popup-hide-form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.list-popup-hide-form.g-btn {
+  background: red;
 }
