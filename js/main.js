@@ -358,7 +358,7 @@ if ($('div').is('#office-map')) {
                 balloonContent: ''
             }, {
                 iconLayout: 'default#image',
-                iconImageHref: '/bitrix/templates/ollila/static/img/general/map-dot.png',
+                iconImageHref: 'img/map-dot.png',
                 iconImageSize: [30, 42]
             });
 
