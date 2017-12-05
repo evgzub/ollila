@@ -430,57 +430,57 @@ if ($('div').is('#location-near')) {
                 iconImageHref: 'img/map-dot.png',
                 iconImageSize: [30, 42]
             });
-            myPlacemark1 = new ymaps.Placemark([60.149678, 29.945622], {
-                hintContent: 'Частный детский сад',
-                balloonContent: 'Частный детский сад'
+            myPlacemark1 = new ymaps.Placemark([60.231012, 29.001074], {
+                hintContent: 'Ресторан МореШаль',
+                balloonContent: 'Ресторан МореШаль'
             }, {
                 preset: 'islands#blueFamilyIcon'
             });
-            myPlacemark2 = new ymaps.Placemark([60.152085, 29.937661], {
-                hintContent: 'Теннисный корт',
-                balloonContent: 'Теннисный корт'
+            myPlacemark2 = new ymaps.Placemark([60.229649 , 29.001803], {
+                hintContent: 'Веревочный парк',
+                balloonContent: 'Веревочный парк'
             }, {
                 preset: 'islands#blueRunIcon'
             });
-            myPlacemark3 = new ymaps.Placemark([60.148557, 29.935813], {
+            myPlacemark3 = new ymaps.Placemark([60.194172 , 29.668171], {
                 hintContent: 'Продукты',
                 balloonContent: 'Продукты'
             }, {
                 preset: 'islands#blueShoppingIcon'
             });
-            myPlacemark4 = new ymaps.Placemark([60.152180, 29.951022], {
+            myPlacemark4 = new ymaps.Placemark([60.195857, 29.684415], {
                 hintContent: 'Продукты',
                 balloonContent: 'Продукты'
             }, {
                 preset: 'islands#blueShoppingIcon'
             });
-            myPlacemark5 = new ymaps.Placemark([60.146670, 29.962587], {
+            myPlacemark5 = new ymaps.Placemark([60.179044, 29.455934], {
                 hintContent: 'Продукты',
                 balloonContent: 'Продукты'
             }, {
                 preset: 'islands#blueShoppingIcon'
             });
-            myPlacemark6 = new ymaps.Placemark([60.147056, 29.962094], {
+            myPlacemark6 = new ymaps.Placemark([60.166579, 29.157929], {
                 hintContent: 'Продукты',
                 balloonContent: 'Продукты'
             }, {
                 preset: 'islands#blueShoppingIcon'
             });
-            myPlacemark7 = new ymaps.Placemark([60.146617, 29.959927], {
-                hintContent: 'Волейбольная площадка',
-                balloonContent: 'Волейбольная площадка'
+            myPlacemark7 = new ymaps.Placemark([60.233119, 28.998090], {
+                hintContent: 'База отдыха',
+                balloonContent: 'База отдыха'
             }, {
                 preset: 'islands#blueRunIcon'
             });
-            myPlacemark8 = new ymaps.Placemark([60.140587, 29.930818], {
-                hintContent: 'Ласковый пляж',
-                balloonContent: 'Ласковый пляж'
+            myPlacemark8 = new ymaps.Placemark([60.229191, 29.002057], {
+                hintContent: 'Курорт Дом у Моря',
+                balloonContent: 'Курорт Дом у Моря'
             }, {
                 preset: 'islands#blueBeachIcon'
             });
-        myPlacemark9 = new ymaps.Placemark([60.140748, 29.948729], {
-                hintContent: 'Школа',
-                balloonContent: 'Школа'
+        myPlacemark9 = new ymaps.Placemark([60.217316, 29.619467], {
+                hintContent: 'Частная школа',
+                balloonContent: 'Частная школа'
             }, {
                 preset: 'islands#blueFamilyIcon'
             });
