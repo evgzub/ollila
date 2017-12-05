@@ -381,7 +381,7 @@ if ($('div').is('#sell-map')) {
                 balloonContent: ''
             }, {
                 iconLayout: 'default#image',
-                iconImageHref: '/bitrix/templates/ollila/static/img/general/map-dot.png',
+                iconImageHref: 'img/map-dot.png',
                 iconImageSize: [30, 42]
             });
 
@@ -489,7 +489,7 @@ if ($('div').is('#location-near')) {
                 balloonContent: ''
             }, {
                 iconLayout: 'default#image',
-                iconImageHref: '/bitrix/templates/ollila/static/img/general/map-dot.png',
+                iconImageHref: 'img/map-dot.png',
                 iconImageSize: [30, 42]
             });
 
