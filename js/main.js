@@ -484,14 +484,20 @@ if ($('div').is('#location-near')) {
             }, {
                 preset: 'islands#blueFamilyIcon'
             });
-           myPlacemark10 = new ymaps.Placemark([60.159238, 29.925098], {
-                hintContent: '',
-                balloonContent: ''
+        myPlacemark10 = new ymaps.Placemark([60.1881, 29.7005], {
+                hintContent: 'Яхт-клуб',
+                balloonContent: 'Яхт-клуб'
             }, {
-                iconLayout: 'default#image',
-                iconImageHref: 'img/map-dot.png',
-                iconImageSize: [30, 42]
+                preset: 'islands#blueWaterwayCircleIcon'
             });
+           // myPlacemark10 = new ymaps.Placemark([60.159238, 29.925098], {
+           //      hintContent: '',
+           //      balloonContent: ''
+           //  // }, {
+           //  //     iconLayout: 'default#image',
+           //  //     // iconImageHref: 'img/map-dot.png',
+           //  //     iconImageSize: [30, 42]
+           //  });
 
         myMap.geoObjects
             .add(myPlacemark);
