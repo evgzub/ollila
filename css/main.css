@@ -1106,7 +1106,7 @@ footer {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
-  background-color: #0065a3;
+  background-color: #386890;
 }
 .footer {
   position: relative;
@@ -2922,7 +2922,7 @@ label.error {
 }
 .s-content-page {
   padding: 80px 0 130px;
-  background-color: #f1f1f1;
+  background-color: #386890;
 }
 @media screen and (max-width: 767px) {
   .s-content-page {
@@ -2937,7 +2937,7 @@ label.error {
 }
 .content-block {
   padding: 60px 112px;
-  background-color: #fff;
+  background-color: #EEE8AA;
   -webkit-box-shadow: 0px 4px 50px rgba(0,0,0,0.05);
           box-shadow: 0px 4px 50px rgba(0,0,0,0.05);
 }
