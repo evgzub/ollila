@@ -490,6 +490,12 @@ if ($('div').is('#location-near')) {
             }, {
                 preset: 'islands#blueWaterwayCircleIcon'
             });
+        // myPlacemark11 = new ymaps.Placemark([60.16352, 29.24874], {
+        //     hintContent: 'Продукты',
+        //     balloonContent: 'Продукты'
+        // }, {
+        //     preset: 'islands#blueShoppingIcon'
+        // });
            // myPlacemark10 = new ymaps.Placemark([60.159238, 29.925098], {
            //      hintContent: '',
            //      balloonContent: ''
