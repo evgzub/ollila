@@ -1372,7 +1372,7 @@ footer {
   margin-bottom: 15px;
   font-size: 1.75rem;
   font-weight: 600;
-  color: #3f2b0d;
+  color: #274278;
 }
 .g-btn-border {
   display: inline-block;
@@ -1663,7 +1663,7 @@ footer {
 }
 .tabs-list__item.tabs-list__item--active,
 .tabs-list__item:hover {
-  color: #0065a3;
+  color: #ffffff;
   border-color: #0065a3;
 }
 .tabs-list__item.tabs-list__item--active .tab-border--right,
@@ -1770,7 +1770,7 @@ footer {
   opacity: 0;
   width: 23px;
   height: 2px;
-  background-color: #eca328;
+  background-color: #b6df18;
 }
 .tab-border-transparent--left:after {
   position: absolute;
@@ -1801,7 +1801,7 @@ footer {
   opacity: 0;
   width: 23px;
   height: 2px;
-  background-color: #eca328;
+  background-color: #b6df18;
 }
 .tab-border-transparent--right:after {
   position: absolute;
@@ -2966,6 +2966,7 @@ label.error {
 }
 .s-choose {
   position: relative;
+  background-color: #EEE8AA;
 }
 .choose-actions {
   position: absolute;
