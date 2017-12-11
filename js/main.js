@@ -49,7 +49,10 @@ $(document).ready(function () {
         prevArrow: '.advantage-slider-prev',
         nextArrow: '.advantage-slider-next',
     });
-
+    $('.js-advantage-info__slider2').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    });
     $('.js-gallery-slider').each(function (idx, item) {
         var gallerySlider = "carousel" + idx;
         this.id = gallerySlider;
@@ -418,7 +421,7 @@ if ($('div').is('#location-near')) {
     ymaps.ready(function () {
         var myMap = new ymaps.Map('location-near', {
                 center: [60.16352, 29.22874],
-                zoom: 14
+                zoom: 11
             }, {
                 searchControlProvider: 'yandex#search'
             });
