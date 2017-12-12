@@ -3756,3 +3756,7 @@ label.error {
 .list-popup-hide-form.g-btn {
   background: red;
 }
+.fancybox-slide--inline .promo-info {
+  /*padding: 15px;*/
+  max-width: 500px;
+}

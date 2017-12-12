@@ -9,7 +9,9 @@
   <meta content="index, follow" name="robots">
   <meta content="" name="keywords">
   <meta content="" name="description">
-  <link href="css/main.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link href="css/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   <link href="/favicon.ico" rel="icon" type="image/x-icon">
   <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
@@ -99,8 +101,14 @@
                 <span class="promo-line__text">При единовременной покупке нескольких участков <br/> действуют специальные условия</span>
                 <div class="g-btn-border promo-line__btn">
                   <div class="g-btn-border--left"></div>
-                  <div class="g-btn-border--right"></div><a class="popup-link g-btn-border__link" href="#pop-advantage2">Подробнее</a>
+                  <div class="g-btn-border--right"></div><a class="g-btn-border__link" data-fancybox data-src="#promo-info" href="javascript:;">Подробнее</a>
                 </div>
+              </div>
+              <div style="display: none;" id="promo-info" class="promo-info">
+                <h2>Hello</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda iusto earum rem quae ad incidunt neque omnis at, velit vel beatae cum porro ipsum ratione necessitatibus, qui quo! Eveniet.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda iusto earum rem quae ad incidunt neque omnis at, velit vel beatae cum porro ipsum ratione necessitatibus, qui quo! Eveniet.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda iusto earum rem quae ad incidunt neque omnis at, velit vel beatae cum porro ipsum ratione necessitatibus, qui quo! Eveniet.</p>
               </div>
               <div class="g-section-title">
                 <h2>Преимущества проекта</h2>
@@ -459,6 +467,8 @@
   <script src="js/libs.min.js">
   </script>
   <script src="js/main.js">
+  </script>
+  <script src="js/jquery.fancybox.min.js">
   </script>
 </body>
 </html>

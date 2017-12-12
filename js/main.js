@@ -234,7 +234,18 @@ $(document).ready(function () {
         }
     });
 
-    $('.house-gallery').magnificPopup({
+    // $('.house-gallery').magnificPopup({
+    //     delegate: 'a',
+    //     type: 'image',
+    //     gallery: {
+    //         enabled: true,
+    //         navigateByImgClick: true,
+    //         preload: [0, 1]
+    //     },
+    //     image: {}
+    // });
+
+    $('#photo-gallery').magnificPopup({
         delegate: 'a',
         type: 'image',
         gallery: {
@@ -243,6 +254,11 @@ $(document).ready(function () {
             preload: [0, 1]
         },
         image: {}
+    });
+
+    $('.house-gallery a').on('click', function(){
+        $('#photo-gallery').magnificPopup('open');
+        return false;
     });
 
     function gallery(elem) {
